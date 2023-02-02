@@ -40,7 +40,7 @@ public:
                 continue;
             if (player->getTeamNumber() == m_localPlayer->getTeamNumber())
                 continue;
-            if (player->m_lastVisibleTime())
+            if (player->lastVisibleTime())
             {
                 player->setGlowEnable(5);
                 player->setGlowThroughWall(1);
