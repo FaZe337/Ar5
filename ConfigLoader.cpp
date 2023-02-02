@@ -21,8 +21,8 @@ private:
     // aimbot
     int m_aimbotTrigger = 0xff20;
     int m_aimbotSmoothing = 999999;
-    int m_aimbotActivationFOV = 0;
-    int m_aimbotMaxRange = 0;
+    int m_aimbotActivationFOV = 180;
+    int m_aimbotMaxRange = 150;
 
     // norecoil
     double m_norecoilPitchStrength = 0;
