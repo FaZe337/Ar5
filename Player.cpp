@@ -128,13 +128,13 @@ public:
         float result = mem::ReadFloat(ptrLong);
         return result;
     }
-    bool isVisible()
-    {
-        const float lastVisibleTime = getLastVisibleTime();
-        const bool isVisible = lastVisibleTime > m_lastVisibleTime;
-        m_lastVisibleTime = lastVisibleTime;
-        return isVisible;
-    }
+        bool isVisible()
+        {
+            const float lastVisibleTime = getLastVisibleTime();
+            const bool isVisible = lastVisibleTime > m_lastVisibleTime;
+            m_lastVisibleTime = lastVisibleTime;
+            return isVisible;
+        }
     void print()
     {
         std::cout << "Player[" + std::to_string(m_entityListIndex) + "]:\n";
