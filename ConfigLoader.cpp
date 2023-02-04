@@ -19,7 +19,7 @@ private:
     bool m_featureSenseOn = true;
 
     // aimbot
-    int m_aimbotTrigger = 0xff20;
+    int m_aimbotTrigger = 0x0000;
     int m_aimbotSmoothing = 999999;
     int m_aimbotActivationFOV = 180;
     int m_aimbotMaxRange = 150;
