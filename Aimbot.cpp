@@ -35,7 +35,7 @@ public:
     void update()
     {
         // validations
-        if (m_configLoader->getAimbotTrigger() != 0x0000)
+        if (m_configLoader->getAimbotTrigger() != 0xffe1)
         { // our trigger is a button
             if (!m_x11Utils->keyDown(m_configLoader->getAimbotTrigger()))
             {
