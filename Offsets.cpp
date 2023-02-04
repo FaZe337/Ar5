@@ -1,3 +1,6 @@
+    //season 15 LTM/Heirloom Event offset update 03/02/23
+    //ToggleBot
+    //https://pastebin.com/raw/PwJwVjgP
     #pragma once
     namespace offsets
     {
